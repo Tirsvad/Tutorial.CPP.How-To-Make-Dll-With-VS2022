@@ -9,14 +9,14 @@
 int main()
 {
     NumberList obj;
-    std::vector<int> r;
 
     obj.addToList(4);
     obj.addToList(7);
 
-    r = obj.getList();
+    std::vector<int> r = obj.getNumbers();
 
     std::cout << "Number list result!" << std::endl;
+
     for (int x : r) // for integer x in vector r
         std::cout << x << " ";
 

@@ -1,30 +1,34 @@
 #pragma once
 
-#ifdef MAKEDLL_EXPORT
-#define MYDLL_API   __declspec(dllexport)
-#else
-#define MYDLL_API   __declspec(dllimport)
-#endif
+#ifndef NUMBERLIST_H
+#define NUMBERLIST_H
 
 #include <vector>
+
+#ifdef NUMBERLIST_EXPORTS // NUMBERLIST_EXPORTS is defined by Visual Studio. See projects proberties and in the pane Configurations  Properties > C/C++ > Preprocessor Defininations
+#define NUMBERLIST_API    __declspec(dllexport)
+#else
+#define NUMBERLIST_API    __declspec(dllimport)
+#endif
 
 class NumberList
 {
 public:
     //Constructor
-    MYDLL_API NumberList(void);
+    NUMBERLIST_API NumberList(void);
     //Destructor
     virtual ~NumberList() {}
 
     //Methods
-    MYDLL_API void addToList(int value);
-    MYDLL_API std::vector<int> getList();
+    NUMBERLIST_API void addToList(int value);
+    NUMBERLIST_API std::vector<int> getNumbers() const;
 
 private:
     //Attributes
-    std::vector<int> numberList;
+    std::vector<int> mNumberList;
 
     //Methods
     void initAttributes() {}
 };
 
+#endif // NUMBERLIST_H

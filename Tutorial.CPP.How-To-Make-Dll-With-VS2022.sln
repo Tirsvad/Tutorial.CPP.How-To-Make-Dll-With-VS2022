@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NumberList", "NumberList\NumberList.vcxproj", "{8F0F0458-E1AC-4FD3-A00E-C2E87552DF2B}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AppUsingDll", "AppUsingDll\AppUsingDll.vcxproj", "{5288B107-840F-46DB-A39B-921C27007DB3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8F0F0458-E1AC-4FD3-A00E-C2E87552DF2B} = {8F0F0458-E1AC-4FD3-A00E-C2E87552DF2B}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

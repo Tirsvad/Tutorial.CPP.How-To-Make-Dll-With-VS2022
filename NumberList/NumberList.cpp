@@ -1,5 +1,3 @@
-#define MAKEDLL_EXPORT
-
 #include "pch.h"
 #include "NumberList.h"
 
@@ -10,10 +8,10 @@ NumberList::NumberList(void)
 
 void NumberList::addToList(int value)
 {
-    numberList.push_back(value);
+    mNumberList.push_back(value);
 }
 
-std::vector<int> NumberList::getList()
+std::vector<int> NumberList::getNumbers() const
 {
-    return numberList;
+    return mNumberList;
 }

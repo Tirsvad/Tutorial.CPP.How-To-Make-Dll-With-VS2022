@@ -113,41 +113,44 @@ This is a step-by-step walkthrough that shows how to use the Visual Studio IDE t
 // file NumberList.h
 #pragma once
 
-#ifdef MAKEDLL_EXPORT
-#define MYDLL_API   __declspec(dllexport)
-#else
-#define MYDLL_API   __declspec(dllimport)
-#endif
+#ifndef NUMBERLIST_H
+#define NUMBERLIST_H
 
 #include <vector>
+
+#ifdef NUMBERLIST_EXPORTS // NUMBERLIST_EXPORTS is defined by Visual Studio. See projects proberties and in the pane Configurations  Properties > C/C++ > Preprocessor Defininations
+#define NUMBERLIST_API    __declspec(dllexport)
+#else
+#define NUMBERLIST_API    __declspec(dllimport)
+#endif
 
 class NumberList
 {
 public:
-	//Constructor
-	MYDLL_API NumberList(void);
-	//Destructor
-	virtual ~NumberList() {}
+    //Constructor
+    NUMBERLIST_API NumberList(void);
+    //Destructor
+    virtual ~NumberList() {}
 
-	//Methods
-	MYDLL_API void addToList(int value);
-	MYDLL_API std::vector<int> getList();
+    //Methods
+    NUMBERLIST_API void addToList(int value);
+    NUMBERLIST_API std::vector<int> getNumbers() const;
 
 private:
-	//Attributes
-	std::vector<int> numberList;
+    //Attributes
+    std::vector<int> mNumberList;
 
-	//Methods
-	void initAttributes() {}
+    //Methods
+    void initAttributes() {}
 };
+
+#endif // NUMBERLIST_H
 ```
 
 12. In the NumberList.cpp file we change the code with this
 
 ```cpp
 // file NumberList.cpp
-#define MAKEDLL_EXPORT
-
 #include "pch.h"
 #include "NumberList.h"
 
@@ -158,13 +161,14 @@ NumberList::NumberList(void)
 
 void NumberList::addToList(int value)
 {
-    numberList.push_back(value);
+    mNumberList.push_back(value);
 }
 
-std::vector<int> NumberList::getList()
+std::vector<int> NumberList::getNumbers() const
 {
-    return numberList;
+    return mNumberList;
 }
+
 ```
 
 13. Right click on NumberList in solution explore. In the popup pane click on build.
@@ -180,7 +184,7 @@ std::vector<int> NumberList::getList()
 	</p>
 </div>
 
-14. For now VS don't know where to look for NumberList headers. We need to tell Visual Studio where our AppUsingDll shall look for NumberList headers.
+14. For now VS don't know where to look for NumberList headers for project AppUsingDll. We need to tell Visual Studio where our AppUsingDll shall look for NumberList headers.
 
 <br>
 <div align="center">
