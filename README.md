@@ -10,7 +10,7 @@ This is a step-by-step walkthrough that shows how to use the Visual Studio IDE t
 <br>
 <div align="center">
 	<p align="center">
-		<a href="https://github.com/Tirsvad/HowToMakeDllWithCppInVS2022/blob/master/docs/images/Desktop-development-with-CPP.png">
+		<a href="https://github.com/Tirsvad/Tutorial.CPP.How-To-Make-Dll-With-VS2022/blob/master/docs/images/Desktop-development-with-CPP.png">
 			<img src="docs/images/Desktop-development-with-CPP.png" alt="screenshot"  height="120">
 		</a>
 	</p>
@@ -21,7 +21,7 @@ This is a step-by-step walkthrough that shows how to use the Visual Studio IDE t
 <br>
 <div align="center">
 	<p align="center">
-		<a href="https://github.com/Tirsvad/HowToMakeDllWithCppInVS2022/blob/master/docs/images/Create-new-solution.png">
+		<a href="https://github.com/Tirsvad/Tutorial.CPP.How-To-Make-Dll-With-VS2022/blob/master/docs/images/Create-new-solution.png">
 			<img src="docs/images/Create-new-solution.png" alt="screenshot"  height="120">
 		</a>
 	</p>
@@ -32,7 +32,7 @@ This is a step-by-step walkthrough that shows how to use the Visual Studio IDE t
 <br>
 <div align="center">
 	<p align="center">
-		<a href="https://github.com/Tirsvad/HowToMakeDllWithCppInVS2022/blob/master/docs/images/New-project-console-app.png">
+		<a href="https://github.com/Tirsvad/Tutorial.CPP.How-To-Make-Dll-With-VS2022/blob/master/docs/images/New-project-console-app.png">
 			<img src="docs/images/New-project-console-app.png" alt="screenshot"  height="120">
 		</a>
 	</p>
@@ -44,7 +44,7 @@ This is a step-by-step walkthrough that shows how to use the Visual Studio IDE t
 <br>
 <div align="center">
 	<p align="center">
-		<a href="https://github.com/Tirsvad/HowToMakeDllWithCppInVS2022/blob/master/docs/images/Configure-your-new-project.png">
+		<a href="https://github.com/Tirsvad/Tutorial.CPP.How-To-Make-Dll-With-VS2022/blob/master/docs/images/Configure-your-new-project.png">
 			<img src="docs/images/Configure-your-new-project.png" alt="screenshot"  height="120">
 		</a>
 	</p>
@@ -55,7 +55,7 @@ This is a step-by-step walkthrough that shows how to use the Visual Studio IDE t
 <br>
 <div align="center">
 	<p align="center">
-		<a href="https://github.com/Tirsvad/HowToMakeDllWithCppInVS2022/blob/master/docs/images/Create-new-solution.png">
+		<a href="https://github.com/Tirsvad/Tutorial.CPP.How-To-Make-Dll-With-VS2022/blob/master/docs/images/Create-new-solution.png">
 			<img src="docs/images/Create-new-solution.png" alt="screenshot"  height="120">
 		</a>
 	</p>
@@ -66,7 +66,7 @@ This is a step-by-step walkthrough that shows how to use the Visual Studio IDE t
 <br>
 <div align="center">
 	<p align="center">
-		<a href="https://github.com/Tirsvad/HowToMakeDllWithCppInVS2022/blob/master/docs/images/New-project-dll.png">
+		<a href="https://github.com/Tirsvad/Tutorial.CPP.How-To-Make-Dll-With-VS2022/blob/master/docs/images/New-project-dll.png">
 			<img src="docs/images/New-project-dll.png" alt="screenshot"  height="120">
 		</a>
 	</p>
@@ -78,7 +78,7 @@ This is a step-by-step walkthrough that shows how to use the Visual Studio IDE t
 <br>
 <div align="center">
 	<p align="center">
-		<a href="https://github.com/Tirsvad/HowToMakeDllWithCppInVS2022/blob/master/docs/images/Configure-you-new-project-2.png">
+		<a href="https://github.com/Tirsvad/Tutorial.CPP.How-To-Make-Dll-With-VS2022/blob/master/docs/images/Configure-you-new-project-2.png">
 			<img src="docs/images/Configure-you-new-project-2.png" alt="screenshot"  height="120">
 		</a>
 	</p>
@@ -89,7 +89,7 @@ This is a step-by-step walkthrough that shows how to use the Visual Studio IDE t
 <br>
 <div align="center">
 	<p align="center">
-		<a href="https://github.com/Tirsvad/HowToMakeDllWithCppInVS2022/blob/master/docs/images/Make-new-class.png">
+		<a href="https://github.com/Tirsvad/Tutorial.CPP.How-To-Make-Dll-With-VS2022/blob/master/docs/images/Make-new-class.png">
 			<img src="docs/images/Make-new-class.png" alt="screenshot"  height="120">
 		</a>
 	</p>
@@ -100,7 +100,7 @@ This is a step-by-step walkthrough that shows how to use the Visual Studio IDE t
 <br>
 <div align="center">
 	<p align="center">
-		<a href="https://github.com/Tirsvad/HowToMakeDllWithCppInVS2022/blob/master/docs/images/Name-the-class-as-NumberList.png">
+		<a href="https://github.com/Tirsvad/Tutorial.CPP.How-To-Make-Dll-With-VS2022/blob/master/docs/images/Name-the-class-as-NumberList.png">
 			<img src="docs/images/Name-the-class-as-NumberList.png" alt="screenshot"  height="120">
 		</a>
 	</p>
@@ -174,7 +174,7 @@ std::vector<int> NumberList::getList()
 <br>
 <div align="center">
 	<p align="center">
-		<a href="https://github.com/Tirsvad/HowToMakeDllWithCppInVS2022/blob/master/docs/images/Header-not-found.png">
+		<a href="https://github.com/Tirsvad/Tutorial.CPP.How-To-Make-Dll-With-VS2022/blob/master/docs/images/Header-not-found.png">
 			<img src="docs/images/Header-not-found.png" alt="screenshot"  height="120">
 		</a>
 	</p>
@@ -185,7 +185,7 @@ std::vector<int> NumberList::getList()
 <br>
 <div align="center">
 	<p align="center">
-		<a href="https://github.com/Tirsvad/HowToMakeDllWithCppInVS2022/blob/master/docs/images/Add-path-to-headers.png">
+		<a href="https://github.com/Tirsvad/Tutorial.CPP.How-To-Make-Dll-With-VS2022/blob/master/docs/images/Add-path-to-headers.png">
 			<img src="docs/images/Add-path-to-headers.png" alt="screenshot"  height="120">
 		</a>
 	</p>
@@ -228,7 +228,7 @@ int main()
 <br>
 <div align="center">
 	<p align="center">
-		<a href="https://github.com/Tirsvad/HowToMakeDllWithCppInVS2022/blob/master/docs/images/Debug-error.png">
+		<a href="https://github.com/Tirsvad/Tutorial.CPP.How-To-Make-Dll-With-VS2022/blob/master/docs/images/Debug-error.png">
 			<img src="docs/images/Debug-error.png" alt="screenshot"  height="120">
 		</a>
 	</p>
@@ -239,7 +239,7 @@ int main()
 <br>
 <div align="center">
 	<p align="center">
-		<a href="https://github.com/Tirsvad/HowToMakeDllWithCppInVS2022/blob/master/docs/images/Fix-debug-error.png">
+		<a href="https://github.com/Tirsvad/Tutorial.CPP.How-To-Make-Dll-With-VS2022/blob/master/docs/images/Fix-debug-error.png">
 			<img src="docs/images/Fix-debug-error.png" alt="screenshot"  height="120">
 		</a>
 	</p>
